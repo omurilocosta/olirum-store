@@ -6,4 +6,4 @@ Tem uma grande variedade de estilos e cores.
 
 A Olirum Store foi criada devido a um trabalho de faculdade, enquanto cursava Engenharia de Software. O website é simples, dinâmico e de qualidade.
 
-🔍 [olirumstore.netlify.app](olirumstore.netlify.app)
+🔍 [olirumstore.netlify.app](https://olirumstore.netlify.app/)
