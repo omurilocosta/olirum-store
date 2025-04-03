@@ -1,0 +1,30 @@
+footer {
+    width: 100%;
+    background-color: var(--color-pri);
+    padding: 60px 30px;
+}
+.footer-left,
+.footer-right {
+    width: 50%;
+}
+.footer-left ul{
+    list-style: none;
+}
+.footer-left .name-course {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color-sec);
+}
+.footer-left .name-student {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color-sec);
+}
+.footer-left .name-teacher {
+    font-size: 1.5rem;
+    color: var(--color-sec);
+}
+.footer-right img {
+    height: 150px;
+    width: auto;
+}

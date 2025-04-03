@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-bg);
+    font-size:15px;
+    margin:0;
+    min-height:100vh;
+    font-family: var(--font-mont);
+}
+
+.models {
+    display:none;
+}
+
+main {
+    flex:1;
+    padding:20px;
+    min-height: 100vh;
+}
+
+main img {
+    height: 100px;
+}
+
+h1, h2 {
+    font-family:'Hepta Slab', Helvetica, Arial;
+    text-align: center;
+}
+
+.catalog-area {
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.catalog-item {
+    text-align: center;
+    max-width:250px;
+    font-family:'Hepta Slab', Helvetica, Arial;
+    margin:0 auto 50px auto;
+    
+}
+
+.catalog-item a {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    text-decoration: none;
+}
+
+.catalog-item--img {
+    width:250px;
+    height:350px;
+}
+
+.catalog-item--img img {
+    width:100%;
+    height:auto;
+    transform: rotate(-54deg) translateX(-50px);
+    transition: all 2s ease-in-out;
+    border-radius: 5%;
+}
+
+.catalog-item--add {
+    width:250px;
+    height:50px;
+    line-height:50px;
+    background-color: var(--color-pri);
+    text-align:center;
+    color:#FFF;
+    font-size:22px;
+    cursor:pointer;
+    margin-top:-25px;
+    transition:all ease .2s;
+}
+
+.catalog-item a:hover .catalog-item--img img {
+    transform: rotate(0);
+    transition: all 330ms ease-in-out;
+}
+.catalog-item a:hover .catalog-item--add {
+    background-color: var(--color-pri-hover);
+    transition: all 150ms ease-in-out;
+}
+
+.catalog-item--price {
+    font-size:15px;
+    color:#333;
+    margin-top:5px;
+}
+
+.catalog-item--name {
+    font-size:20px;
+    font-weight: bold;
+    color:#000;
+    margin-top:5px;
+}

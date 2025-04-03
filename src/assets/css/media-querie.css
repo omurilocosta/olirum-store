@@ -1,0 +1,133 @@
+@media (max-width:1000px) {
+    .catalog-area {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:840px) {
+    .header{
+        flex-direction: column;
+    }
+    .nav {
+        display: flex;
+        justify-content: center;
+    }
+    .nav-top {
+        margin-bottom: 15px;
+    }
+    body {
+        flex-direction: column;
+    }
+    .catalog-area {
+        display:block;
+    }
+    .catalog-item {
+        max-width:100%;
+    }
+    main {
+        padding-top:60px;
+    }
+
+    .catalogWindowArea {
+        justify-content:flex-start;
+        align-items: flex-start;
+    }
+    .catalogWindowBody {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width:100vw;
+        height: 100vh;
+        display:block;
+        padding:20px;
+        z-index: 999;
+        border-radius:0;
+        box-shadow:none;
+        margin:0;
+    }
+
+    .catalogBig img {
+        width: 75%;
+        height: auto;
+    }
+
+    .catalogInfo h1 {
+        margin-top:20px;
+    }
+
+    .catalogInfo--qtarea {
+        height:60px;
+        
+    }
+    
+    .catalogInfo--qtarea button {
+        font-size:25px;
+        padding:0px 25px;
+    }
+
+    .catalogInfo--qt {
+        line-height: 60px;
+        font-size:20px;
+    }
+
+    .catalogInfo--addButton {
+        font-size:20px;
+        display:block;
+        text-align:center;
+        margin:30px auto;
+    }
+
+    .catalogInfo--cancelButton {
+        display:none;
+    }
+
+    .catalogInfo--cancelMobileButton {
+        display:block;
+    }
+
+    .catalog-item--img{
+        width: 325px;
+        height: 425px;
+    }
+    .catalog-item--add{
+        width: 325px;;
+    }
+    footer {
+        flex-direction: column;
+    }
+    .footer-left,
+    .footer-right {
+        width: 100%;
+    }
+    .footer-left{
+        justify-content: center;
+    }
+
+}
+
+@media (max-width:380px) {
+    header h1 {
+        font-size: 1rem;
+    }
+    .menu-openner {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width:300px){
+    .catalogInfo--addButton {
+        font-size: 15px;
+    }
+    .catalogInfo--qtarea button {
+        padding:0px 10px;
+    }
+    .catalogInfo--qtarea{
+        display: inline-flex;
+        width: 78px;
+        height: 50px;
+    }
+    .catalogInfo--qt{
+        font-size: 100%;
+    }
+}
