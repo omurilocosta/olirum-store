@@ -67,7 +67,6 @@ h1, h2 {
     height:50px;
     line-height:50px;
     background-color: var(--color-pri);
-    text-align:center;
     color:#FFF;
     font-size:22px;
     cursor:pointer;
@@ -95,4 +94,36 @@ h1, h2 {
     font-weight: bold;
     color:#000;
     margin-top:5px;
+}
+.catalog-item--add p {
+    height: 100%;
+    margin: 0;
+}
+
+.catalog-item--add i {
+    display: none;
+    font-size: 25px;
+}
+.catalog-item a:hover .catalog-item--add i {
+    display: flex;
+    animation: slideIn 330ms ease-in-out forwards;
+    transition: all 150ms ease-in-out;
+}
+.catalog-item a:hover .catalog-item--add p {
+    display: none;
+    transition: all 150ms ease-in-out;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-30px);
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
