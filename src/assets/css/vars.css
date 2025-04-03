@@ -3,59 +3,17 @@
     --color-pri: #1f3149;
     --color-pri-hover: #152131;
     --color-sec: #fff;
-    --color-cnz_clr: #f1f1f1;
     --color-cnz: #9f9f9f;
     --color-bg: #f2f5f7;
 
-    --orbe-spacing-0: 0px;
-    --orbe-spacing-1: 4px;
-    --orbe-spacing-2: 8px;
-    --orbe-spacing-3: 12px;
-    --orbe-spacing-4: 16px;
-    --orbe-spacing-5: 20px;
-    --orbe-spacing-8: 32px;
-
     --font-mont: 'Montserrat',sans-serif;
-
 }
-
-.u-w100 {
-    width: 100% !important;
-}
-
 .u-flex {
     display: flex !important;
-}
-.u-justify-around {
-    justify-content: space-around !important;
 }
 .u-justify-center {
     justify-content: center !important;
 }
-.u-justify-evenly{
-    justify-content: space-evenly !important;
-}
-.u-justify-between {
-    justify-content: space-between !important;
-}
 .u-items-center {
     align-items: center !important;
-}
-.u-flex-col {
-    flex-direction: column !important;
-}
-.u-gap-1{
-    gap: var(--orbe-spacing-1) !important;
-}
-.u-gap-2 {
-    gap: var(--orbe-spacing-2) !important;
-}
-.u-gap-3 {
-    gap: var(--orbe-spacing-3) !important;
-}
-.u-gap-5 {
-    gap: var(--orbe-spacing-5) !important;
-}
-.u-gap-8 {
-    gap: var(--orbe-spacing-8) !important;
 }

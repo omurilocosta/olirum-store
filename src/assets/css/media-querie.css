@@ -105,16 +105,6 @@
 
 }
 
-@media (max-width:380px) {
-    header h1 {
-        font-size: 1rem;
-    }
-    .menu-openner {
-        font-size: 1.5rem;
-    }
-
-}
-
 @media (max-width:300px){
     .catalogInfo--addButton {
         font-size: 15px;
