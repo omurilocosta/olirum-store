@@ -8,10 +8,6 @@ A Olirum Store foi criada devido a um trabalho de faculdade, enquanto cursava En
 
 🔍 [olirumstore.netlify.app](https://olirumstore.netlify.app/)
 
-### 🎥 Pré-Visualização
-
-[![Demonstração do Projeto](https://img.youtube.com/vi/qbqFhX33PYk/maxresdefault.jpg)](https://youtu.be/qbqFhX33PYk)
-
 ## 🛠 Tecnologias Utilizadas
 - Html 💀
 - CSS 🧑🏽
