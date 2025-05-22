@@ -17,3 +17,6 @@
 .u-items-center {
     align-items: center !important;
 }
+.u-flex-col {
+    flex-direction: column !important;
+}
